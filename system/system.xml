@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" ?>
+<XML>
+	<XMLHEADER>version="1.0"</XMLHEADER>
+
+	<SKIN>Default</SKIN>
+
+	<DEFFONT>Arial</DEFFONT>
+
+	<IME>false</IME>
+
+	<BAREPORT>
+		<ADDR>www.battlearena.com</ADDR>
+		<DIR>incoming/gunz_US</DIR>
+	</BAREPORT>
+
+	<EMBLEM_URL>http://emblem.fgunz.net/</EMBLEM_URL>
+	<TEMBLEM_URL>http://emblem.fgunz.net/</TEMBLEM_URL>
+
+	<CASHSHOP_URL>http://fgunz.net</CASHSHOP_URL>
+
+	<HOMEPAGE>
+	    <URL>http://fgunz.net</URL>
+	    <TITLE>Freestyle GunZ</TITLE>
+	</HOMEPAGE>
+
+	<LOCATORLIST>
+		<LOCATOR id="1" IP="198.144.121.96" />
+	</LOCATORLIST>
+
+	<TLOCATORLIST>
+		<LOCATOR id="1" IP="198.144.121.96" />
+	</TLOCATORLIST>
+</XML>

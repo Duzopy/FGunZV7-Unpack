@@ -1,0 +1,1 @@
+Just place your songs (.mp3 files) in this directory.

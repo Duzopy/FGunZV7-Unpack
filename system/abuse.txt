@@ -1,0 +1,211 @@
+﻿1,£
+1,§
+1,©
+1,¨
+1,ƒ
+1,„
+1,€
+1,„
+1,™
+1,¢
+1,†
+1,‡
+1,
+1,¨
+1,©
+1,Ç
+1,Î
+1,¥
+1,¤
+1,£
+1,©
+1,ß
+1,ê
+1,legacygamers
+1,legacygunz
+1,legacy gunz
+1,legendgamers
+1,legendgamerz
+1,legendgunz
+1,legend gunz
+1,eurogunz
+1,euro gunz
+1,eu gunz
+1,trinitygunz
+1,trinity gunz
+1,eugunz
+1,lggunz
+1,lg gunz
+1,aliasgamer
+1,ultimategunz
+1,ultimate gunz
+1,ultimate gamer
+1,gamerzplanet
+1,gamerz planet
+1,auroragunz
+1,aurora gunz
+1,darkgunz
+1,dark gunz
+1,dr gunz
+1,drgunz
+1,dg gunz
+1,dggunz
+1,legendarygamer
+1,legendary gamer
+1,legendarygunz
+1,legendary gunz
+1,aliasgamers
+1,aliasgamerz
+1,alias gamers
+1,alias gamerz
+1,eternalgunz
+1,eternal gunz
+1,restylegamer
+1,restyle gamer
+1,restylegunz
+1,restyle gunz
+1,infernalgunz
+1,infernal gunz
+1,kenzugunz
+1,kenzu gunz
+1,fakegaming
+1,fake gaming
+1,epicgamer
+1,epic gamer
+1,epic gunz
+1,epicgunz
+1,urbangamer
+1,urban gamer
+1,urban gunz
+1,urbangunz
+1,fatal gunz
+1,fatal gamer
+1,gamenao
+1,skygamers
+1,skygamerz
+1,sky gunz
+1,mocrogunz
+1,mocro gunz
+1,rivalgunz
+1,rival gunz
+1,gamerzneeds
+1,trinityent
+1,ultimategunz
+1,ultimate gunz
+1,skygamerz
+1,skygamers
+1,skygunz
+1,sky gunz
+1,sky gamerz
+1,sky gamers
+1,systemgunz
+1,system gunz
+1,systemguns
+1,systemguns
+1,system gunz
+1,shadow gunz
+1,shadowgunz
+1,drgunz
+1,dr gunz
+1,legacygunz
+1,legacy gunz
+1,skull gunz
+1,skullgunz
+1,worldwidegunz
+1,worldwide gunz
+1,fantasygunz
+1,fantasy gunz
+1,dualitygunz
+1,duality gunz
+1,legendgamerz
+1,legend gamerz
+1,legendgamers
+1,legend gamers
+1,twilightgunz
+1,twilight gunz
+1,extremegunz
+1,extreme gunz
+1,ultimategunz
+1,ultimate gunz
+1,creativegunz
+1,creative gunz
+1,dreamgamerz
+1,dream gamerz
+1,dreamgunz
+1,dream gunz
+1,evilgamerz
+1,evil gamerz
+1,ariesgamerz
+1,ariesgunz
+1,aries gunz
+1,aries gamerz
+1,rawrgunz
+1,rawr gunz
+1,icegunz
+1,ice gunz
+1,decentgunz
+1,decent gunz
+1,probattlegunz
+1,probattle gunz
+1,evgunz
+1,ev gunz
+1,creativegamerz
+1,creative gamerz
+1,fatalgunz
+1,fatal gunz
+1,ghettogunz
+1,ghetto gunz
+1,spirit gamerz
+1,spiritgamerz
+1,auroragunz
+1,aurora gunz
+1,aliasgamerz
+1,alias gunz
+1,aliasgunz
+1,alias gamerz
+1,skygamerz
+1,sky gamerz
+1,mysticgunz
+1,mystic gunz
+1,legendary gunz
+1,legendarygunz
+1,slashgunz
+1,slash gunz
+1,romaniangunz
+1,romanian gunz
+1,turtlegunz
+1,turtle gunz
+1,rockgunz
+1,rock gunz
+1,diamondgunz
+1,diamond gunz
+1,diamandgunz
+1,diamand gunz
+1,hero gamers
+1,hero gunz
+1,herogamers
+1,herogunz
+1,hggunz
+1,hg gunz
+1,thronegunz
+1,watch the throne
+1,watchthethrone
+1,throne gunz
+1,throne network
+1,thronenetwork
+1,quality gunz
+1,qualitygunz
+1,universegunz
+1,universe gunz
+1,mocro gunz
+1,mocrogunz
+1,universe gunz
+1,universegunz
+1,articgunz
+1,artic gunz
+1,articgamers
+1,artic gamers
+1,entity network
+1,entitynetwork
+1,entitygunz
+END

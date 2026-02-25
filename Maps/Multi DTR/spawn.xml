@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XML>
+
+<GAMETYPE id="team">
+	<SPAWN item="blueflag" timesec="5000">
+		<POSITION>1400 -4128 656</POSITION>
+	</SPAWN>
+	<SPAWN item="redflag" timesec="5000">
+		<POSITION>-4912 -2480 488</POSITION>
+	</SPAWN>
+</GAMETYPE>
+
+<GAMETYPE id="solo">
+		<SPAWN item="bullet02" timesec="45000">
+			<POSITION>-3376 -3584 656</POSITION>
+		</SPAWN>
+		<SPAWN item="hp03" timesec="45000">
+			<POSITION>-416 -4128 1160</POSITION>
+		</SPAWN>
+		<SPAWN item="hp03" timesec="45000">
+			<POSITION>-5480 168 664</POSITION>
+		</SPAWN>
+		<SPAWN item="ap03" timesec="45000">
+			<POSITION>-4520 -5616 -544</POSITION>
+		</SPAWN>
+		<SPAWN item="ap03" timesec="45000">
+			<POSITION>-1344 -4024 664</POSITION>
+		</SPAWN>
+</GAMETYPE><GAMETYPE id="team">
+		<SPAWN item="bullet02" timesec="45000">
+			<POSITION>-3376 -3584 656</POSITION>
+		</SPAWN>
+		<SPAWN item="hp02" timesec="30000">
+			<POSITION>-416 -4128 1160</POSITION>
+		</SPAWN>
+		<SPAWN item="hp02" timesec="30000">
+			<POSITION>-5480 168 664</POSITION>
+		</SPAWN>
+		<SPAWN item="ap02" timesec="45000">
+			<POSITION>-4520 -5616 -544</POSITION>
+		</SPAWN>
+		<SPAWN item="ap02" timesec="45000">
+			<POSITION>-1344 -4024 664</POSITION>
+		</SPAWN>
+</GAMETYPE>
+
+</XML> 

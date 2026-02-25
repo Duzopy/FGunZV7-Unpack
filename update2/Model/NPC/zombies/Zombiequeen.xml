@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+
+	<NPCModel></NPCModel>
+	<AddBaseModel name="zombiequeen" filename="zombiequeen.elu"> </AddBaseModel>
+	<MakeAnimationMap ></MakeAnimationMap>
+
+	<AddAnimation name="idle"		filename="woman_item_idle.elu.ani" 	 	gm="0"	motion_type="0" motion_loop_type="loop" > </AddAnimation>
+
+	<AddAnimation name="neglect1"		filename="woman_dagger_laugh.elu.ani" 	gm="0"	motion_type="0" motion_loop_type="loop" > </AddAnimation>
+	<AddAnimation name="neglect2"		filename="woman_2hdagger_laugh.elu.ani" 	gm="0"	motion_type="0" motion_loop_type="loop" > </AddAnimation>
+
+	<AddAnimation name="melee_attacked1"	filename="woman_damage.elu.ani"  gm="1"	motion_type="0" motion_loop_type="loop" > </AddAnimation>
+	<AddAnimation name="melee_attacked2"	filename="woman_damage.elu.ani" gm="1"	motion_type="0" motion_loop_type="loop" > </AddAnimation>
+	<AddAnimation name="range_attacked1"	filename="woman_damage2.elu.ani" 	gm="1"	motion_type="0" motion_loop_type="loop" > </AddAnimation>
+	<AddAnimation name="lightning"		filename="woman_damage_lightning.elu.ani"  gm="1"	motion_type="0" motion_loop_type="loop" > </AddAnimation>
+
+	<AddAnimation name="melee_attack"	filename="woman_blade_slash.elu.ani" gm="1" motion_type="0" motion_loop_type="loop" > </AddAnimation>
+
+	<AddAnimation name="high_timed"		filename="woman_blast.elu.ani" 	 gm="1"	motion_type="0" motion_loop_type="lastframe" > </AddAnimation>
+	<AddAnimation name="safe_fall"		filename="woman_blast_airmove.elu.ani" 	 gm="1"	motion_type="0" motion_loop_type="lastframe" > </AddAnimation>
+	<AddAnimation name="safe_fall_fail"	filename="woman_blast_fall.elu.ani" 	gm="1"	motion_type="0" motion_loop_type="lastframe" > </AddAnimation>
+	<AddAnimation name="drop"		filename="woman_blast_drop.elu.ani" 	gm="1"	motion_type="0" motion_loop_type="lastframe" > </AddAnimation>
+	<AddAnimation name="standup"		filename="woman_blast_stand.elu.ani" 	 gm="1"	motion_type="0" motion_loop_type="lastframe" > </AddAnimation>
+	<AddAnimation name="blast_d"		filename="woman_blast_dagger.elu.ani" 	 gm="1"	motion_type="0" motion_loop_type="lastframe" > </AddAnimation>
+	<AddAnimation name="drop_d"		filename="woman_blast_drop_dagger.elu.ani" 	 gm="1"	motion_type="0" motion_loop_type="lastframe" > </AddAnimation>
+
+	<AddAnimation name="run"		filename="woman_2hdagger_run.elu.ani"		gm="1" 	motion_type="0" motion_loop_type="loop" > </AddAnimation>
+
+	<AddAnimation name="die"		filename="woman_die2.elu.ani"		gm="1"	motion_type="0" motion_loop_type="lastframe" 	> </AddAnimation>
+	<AddAnimation name="die2" 		filename="woman_die3.elu.ani"		gm="1"	motion_type="0" motion_loop_type="lastframe" 	> </AddAnimation>
+
+	<AddAnimation name="jump_up"		filename="woman_2hdagger_jump_up.elu.ani"		gm="1"	motion_type="0" motion_loop_type="lastframe" 	> </AddAnimation>
+	<AddAnimation name="jump_down" 		filename="woman_2hdagger_jump_down.elu.ani"		gm="1"	motion_type="0" motion_loop_type="lastframe" 	> </AddAnimation>
+
+	<AddAnimation name="stunned" 		filename="woman_damage_down.elu.ani"	gm="1"	motion_type="0" motion_loop_type="lastframe" 	> </AddAnimation>
+
+</xml>

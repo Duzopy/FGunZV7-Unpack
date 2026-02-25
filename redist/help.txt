@@ -1,0 +1,16 @@
+Incase Freestyle GunZ Version 7 does NOT work for you..
+
+
+
+Run and install vcredist_x86.exe
+
+OR
+
+Run and install vcredist_x64.exe (only if your PC is 64-bit)
+
+
+
+You can find these files at Freestyle GunZ Version 7/redist
+
+
+- Freestylers World

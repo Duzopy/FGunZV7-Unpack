@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<XML ID="zitem_specialized">
+	<!-- 한국
+      /////////////////////////////////////////////////////////////////////////////////////////////////////////////
+      /// 소모성 아이템 ///////////////////////////////////////////////////////////////////////////////////////////
+	  ///       Added By 홍기주 ///////////////////////////////////////////////////////////////////////////////////
+	  /// Type = "custom" (공통)
+	  /// slot = "custom" (공통)
+	  /// weapon = "potion" (현재는 potion 하나, 추가할 때마다 기존의 것과 겹치더라도 새로 추가해주는 방식을 취하자)
+	  /// stackable, spendable은 무조건 "true"(공통)
+      /////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	-->
+
+	<!-- 의료 캡슐 -->
+	<ITEM id="40001" name="STR:ZITEM_NAME_40001" mesh_name="potion" type="custom" slot="custom" weapon="potion" 
+		spendable="true" spendtype="normal" itempower="15" damagetype="heal" magazine="4" maxbullet="4" weight="5"
+		delay="500" totalpoint="0" res_sex="a" res_level="0" bt_price="0" iscashitem="false" color="#FFFFFFFF" 
+		snd_fire="fx_itemget" effect_id="100" magazine_image_id="0" desc="Immediate HP Recovery Pill. A maximum of 4 pills can be used per game. (consumable item)"/>
+
+	<ITEM id="40002" name="STR:ZITEM_NAME_40002" mesh_name="potion" type="custom" slot="custom" weapon="potion" 
+		spendable="true" spendtype="normal" itempower="15" damagetype="heal" magazine="5" maxbullet="5" weight="5"
+		delay="500" totalpoint="0" res_sex="a" res_level="25" bt_price="0" iscashitem="false" color="#FFFFFFFF" 
+		snd_fire="fx_itemget" effect_id="100" magazine_image_id="0" desc="Immediate HP Recovery Pill. A maximum of 5 pills can be used per game. (consumable item)"/>
+
+	<ITEM id="40003" name="Recovery Pill v3" mesh_name="potion" type="custom" slot="custom" weapon="potion" 
+		spendable="true" spendtype="normal" itempower="15" damagetype="heal" magazine="6" maxbullet="6" weight="5"
+		delay="500" totalpoint="0" res_sex="a" res_level="50" bt_price="0" iscashitem="false" color="#FFFFFFFF" 
+		snd_fire="fx_itemget" effect_id="100" magazine_image_id="0" desc="Immediate HP Recovery Pill. A maximum of 6 pills can be used per game. (consumable item)"/>
+		
+	<ITEM id="400050" name="Ultimate Recovery Pill" mesh_name="potion" type="custom" slot="custom" weapon="potion" 
+		spendable="true" spendtype="normal" itempower="25" damagetype="heal" magazine="10" maxbullet="300" weight="0"
+		delay="500" totalpoint="0" res_sex="a" res_level="0" bt_price="0" iscashitem="true" color="#FFFFFFFF" 
+		snd_fire="fx_itemget" effect_id="100" magazine_image_id="0" desc="Donator's ULTIMATE Immediate HP Recovery Pill. A maximum of 10 pills can be used per game. (consumable item)"/>
+
+	<!-- Weapon Spendable -->
+	<ITEM id="40101" name="STR:ZITEM_NAME_40101" mesh_name="potion" type="custom" slot="custom" weapon="potion" 
+		spendable="true" spendtype="shortbuff" 
+		itempower="6" damagetime="6" damagetype="heal" magazine="3" maxbullet="3" weight="4"
+		delay="1000" totalpoint="0" res_sex="a" res_level="0" bt_price="0" iscashitem="false" color="#FFFFFFFF" 
+		snd_fire="fx_itemget" effect_id="102" magazine_image_id="0" desc="A sealed HP vial with powerful effects - Increasing health over time. A maximum of 3 vials can be used per game. (consumable item)"/>
+
+	<ITEM id="40102" name="STR:ZITEM_NAME_40102" mesh_name="potion" type="custom" slot="custom" weapon="potion" 
+		spendable="true" spendtype="shortbuff" 
+		itempower="6" damagetime="6" damagetype="heal" magazine="4" maxbullet="4" weight="4"
+		delay="1000" totalpoint="0" res_sex="a" res_level="25" bt_price="0" iscashitem="false" color="#FFFFFFFF" 
+		snd_fire="fx_itemget" effect_id="102" magazine_image_id="0" desc="A sealed HP vial with powerful effects - Increasing health over time. A maximum of 4 vials can be used per game. (consumable item)"/>
+
+	<ITEM id="40103" name="Medical Vial v3" mesh_name="potion" type="custom" slot="custom" weapon="potion" 
+		spendable="true" spendtype="shortbuff" 
+		itempower="6" damagetime="6" damagetype="heal" magazine="5" maxbullet="5" weight="4"
+		delay="1000" totalpoint="0" res_sex="a" res_level="50" bt_price="0" iscashitem="false" color="#FFFFFFFF" 
+		snd_fire="fx_itemget" effect_id="102" magazine_image_id="0" desc="A sealed HP vial with powerful effects - Increasing health over time. A maximum of 5 vials can be used per game. (consumable item)"/>
+
+	<ITEM id="401050" name="Ultimate Medical Vial" mesh_name="potion" type="custom" slot="custom" weapon="potion" 
+		spendable="true" spendtype="shortbuff" 
+		itempower="10" damagetime="10" damagetype="heal" magazine="10" maxbullet="300" weight="0"
+		delay="1000" totalpoint="0" res_sex="a" res_level="0" bt_price="0" iscashitem="true" color="#FFFFFFFF" 
+		snd_fire="fx_itemget" effect_id="102" magazine_image_id="0" desc="Regenerates 10 HP/s for 10 seconds (=100 HP) per Vial. A maximum of 10 vials can be used per game. (consumable item)"/>
+
+	<!-- 수리 캡슐 -->
+	<ITEM id="40201" name="STR:ZITEM_NAME_40201" mesh_name="potion" type="custom" slot="custom" weapon="potion" 
+		spendable="true" spendtype="normal" itempower="15" damagetype="repair" magazine="4" maxbullet="4" weight="5"
+		delay="500" totalpoint="0" res_sex="a" res_level="0" bt_price="0" iscashitem="false" color="#FFFFFFFF" 
+		snd_fire="fx_itemget" effect_id="101" magazine_image_id="0" desc="Immediate AP repair pill. Maximum of 4 pills can be used per game. (consumable item)"/>
+
+	<ITEM id="40202" name="STR:ZITEM_NAME_40202" mesh_name="potion" type="custom" slot="custom" weapon="potion" 
+		spendable="true" spendtype="normal" itempower="15" damagetype="repair" magazine="5" maxbullet="5" weight="5"
+		delay="500" totalpoint="0" res_sex="a" res_level="25" bt_price="0" iscashitem="false" color="#FFFFFFFF" 
+		snd_fire="fx_itemget" effect_id="101" magazine_image_id="0" desc="Immediate AP repair pill. Maximum of 5 pills can be used per game. (consumable item)"/>
+
+	<ITEM id="40203" name="Repair Pill v3" mesh_name="potion" type="custom" slot="custom" weapon="potion" 
+		spendable="true" spendtype="normal" itempower="15" damagetype="repair" magazine="6" maxbullet="6" weight="5"
+		delay="500" totalpoint="0" res_sex="a" res_level="50" bt_price="0" iscashitem="false" color="#FFFFFFFF" 
+		snd_fire="fx_itemget" effect_id="101" magazine_image_id="0" desc="Immediate AP repair pill. Maximum of 6 pills can be used per game. (consumable item)"/>
+		
+	<ITEM id="402050" name="Ultimate Repair Pill" mesh_name="potion" type="custom" slot="custom" weapon="potion" 
+		spendable="true" spendtype="normal" itempower="25" damagetype="repair" magazine="10" maxbullet="300" weight="0"
+		delay="500" totalpoint="0" res_sex="a" res_level="0" bt_price="0" iscashitem="true" color="#FFFFFFFF" 
+		snd_fire="fx_itemget" effect_id="101" magazine_image_id="0" desc="Ultimate Immediate AP repair pill. Maximum of 10 pills can be used per game. (consumable item)"/>
+
+	<!-- 수리 앰플 -->
+	<ITEM id="40301" name="STR:ZITEM_NAME_40301" mesh_name="potion" type="custom" slot="custom" weapon="potion" 
+		spendable="true" spendtype="shortbuff" 
+		itempower="6" damagetime="6" damagetype="repair" magazine="3" maxbullet="3" weight="4"
+		delay="1000" totalpoint="0" res_sex="a" res_level="0" bt_price="0" iscashitem="false" color="#FFFFFFFF" 
+		snd_fire="fx_itemget" effect_id="103" magazine_image_id="0" desc="A sealed vial that contains micro repair robots. It contains powerful effects, but repairs armor over time. A maximum of 3 vials can be used per game. (consumable item)"/>
+
+	<ITEM id="40302" name="STR:ZITEM_NAME_40302" mesh_name="potion" type="custom" slot="custom" weapon="potion" 
+		spendable="true" spendtype="shortbuff" 
+		itempower="6" damagetime="6" damagetype="repair" magazine="4" maxbullet="4" weight="4"
+		delay="1000" totalpoint="0" res_sex="a" res_level="25" bt_price="0" iscashitem="false" color="#FFFFFFFF" 
+		snd_fire="fx_itemget" effect_id="103" magazine_image_id="0" desc="A sealed vial that contains micro repair robots. It contains powerful effects, but repairs armor over time. A maximum of 4 vials can be used per game. (consumable item)"/>
+
+	<ITEM id="40303" name="Repair Vial v3" mesh_name="potion" type="custom" slot="custom" weapon="potion" 
+		spendable="true" spendtype="shortbuff" 
+		itempower="6" damagetime="6" damagetype="repair" magazine="5" maxbullet="5" weight="4"
+		delay="1000" totalpoint="0" res_sex="a" res_level="50" bt_price="0" iscashitem="false" color="#FFFFFFFF" 
+		snd_fire="fx_itemget" effect_id="103" magazine_image_id="0" desc="A sealed vial that contains micro repair robots. It contains powerful effects, but repairs armor over time. A maximum of 5 vials can be used per game. (consumable item)"/>
+
+	<ITEM id="403050" name="Ultimate Repair Vial" mesh_name="potion" type="custom" slot="custom" weapon="potion" 
+		spendable="true" spendtype="shortbuff" 
+		itempower="10" damagetime="10" damagetype="repair" magazine="10" maxbullet="300" weight="0"
+		delay="1000" totalpoint="0" res_sex="a" res_level="0" bt_price="0" iscashitem="true" color="#FFFFFFFF" 
+		snd_fire="fx_itemget" effect_id="103" magazine_image_id="0" desc="Ultimate vial that contains micro repair robots. It contains powerful effects, but repairs armor over time. A maximum of 10 vials can be used per game. (consumable item)"/>
+
+	<!-- 카녹스 EX -->
+	<ITEM id="40401" name="STR:ZITEM_NAME_40401" mesh_name="dynamite" type="custom" slot="custom" weapon="dynamite" 
+		spendable="true" spendtype="normal" damage="50" magazine="2" maxbullet="2" weight="6"
+		delay="1500" totalpoint="0" res_sex="a" res_level="0" bt_price="0" iscashitem="false" color="#FFFFFFFF" 
+		snd_fire="we_grenade_fire" bullet_image_id="0" magazine_image_id="0" desc="STR:ZITEM_DESC_40401"/>
+
+	<ITEM id="40402" name="STR:ZITEM_NAME_40402" mesh_name="dynamite" type="custom" slot="custom" weapon="dynamite" 
+		spendable="true" spendtype="normal" damage="50" magazine="2" maxbullet="2" weight="4"
+		delay="1500" totalpoint="0" res_sex="a" res_level="15" bt_price="0" iscashitem="false" color="#FFFFFFFF" 
+		snd_fire="we_grenade_fire" bullet_image_id="0" magazine_image_id="0" desc="STR:ZITEM_DESC_40402"/>
+
+	<ITEM id="40403" name="STR:ZITEM_NAME_40403" mesh_name="dynamite" type="custom" slot="custom" weapon="dynamite" 
+		spendable="true" spendtype="normal" damage="50" magazine="2" maxbullet="2" weight="2"
+		delay="1500" totalpoint="0" res_sex="a" res_level="30" bt_price="0" iscashitem="false" color="#FFFFFFFF" 
+		snd_fire="we_grenade_fire" bullet_image_id="0" magazine_image_id="0" desc="STR:ZITEM_DESC_40403"/>
+
+	<ITEM id="40404" name="STR:ZITEM_NAME_40404" mesh_name="dynamite" type="custom" slot="custom" weapon="dynamite" 
+		spendable="true" spendtype="normal" damage="50" magazine="3" maxbullet="3" weight="4"
+		delay="1500" totalpoint="0" res_sex="a" res_level="45" bt_price="0" iscashitem="false" color="#FFFFFFFF" 
+		snd_fire="we_grenade_fire" bullet_image_id="0" magazine_image_id="0" desc="STR:ZITEM_DESC_40404"/>
+
+	<ITEM id="40405" name="Canox EX5" mesh_name="dynamite" type="custom" slot="custom" weapon="dynamite" 
+		spendable="true" spendtype="normal" damage="50" magazine="3" maxbullet="3" weight="2"
+		delay="1500" totalpoint="0" res_sex="a" res_level="60" bt_price="0" iscashitem="false" color="#FFFFFFFF" 
+		snd_fire="we_grenade_fire" bullet_image_id="0" magazine_image_id="0" desc="Improved lightweight blast grenade for close range attacks, it will immediately explode upon impact with any surface. A maximum of 3 grenades can be used per game. (consumable item)"/>
+
+	<!-- 화염 트랩 -->
+	<ITEM id="40501" name="Adam IB1" mesh_name="trap_firefield" type="custom" slot="custom" weapon="trap" 
+		spendable="true" spendtype="normal" itempower="18" damagetime="1200" damagetype="fire" magazine="2" maxbullet="2"
+		lifetime="2000" weight="6"
+		delay="2500" totalpoint="0" res_sex="a" res_level="0" bt_price="0" iscashitem="false" color="#FFFFFFFF" 
+		snd_fire="we_grenade_fire" desc="STR:ZITEM_DESC_40501" />
+
+	<ITEM id="40502" name="Adam IB2" mesh_name="trap_firefield" type="custom" slot="custom" weapon="trap" 
+		spendable="true" spendtype="normal" itempower="18" damagetime="1200" damagetype="fire" magazine="2" maxbullet="2"
+		lifetime="2000" weight="4"
+		delay="2500" totalpoint="0" res_sex="a" res_level="15" bt_price="0" iscashitem="false" color="#FFFFFFFF" 
+		snd_fire="we_grenade_fire" desc="STR:ZITEM_DESC_40502" />
+
+	<ITEM id="40503" name="Adam IB3" mesh_name="trap_firefield" type="custom" slot="custom" weapon="trap" 
+		spendable="true" spendtype="normal" itempower="18" damagetime="1200" damagetype="fire" magazine="2" maxbullet="2"
+		lifetime="2000" weight="2"
+		delay="2500" totalpoint="0" res_sex="a" res_level="30" bt_price="0" iscashitem="false" color="#FFFFFFFF" 
+		snd_fire="we_grenade_fire" desc="STR:ZITEM_DESC_40503" />
+
+	<ITEM id="40504" name="Adam IB4" mesh_name="trap_firefield" type="custom" slot="custom" weapon="trap" 
+		spendable="true" spendtype="normal" itempower="18" damagetime="1200" damagetype="fire" magazine="3" maxbullet="3"
+		lifetime="2000" weight="4"
+		delay="2500" totalpoint="0" res_sex="a" res_level="45" bt_price="0" iscashitem="false" color="#FFFFFFFF" 
+		snd_fire="we_grenade_fire" desc="STR:ZITEM_DESC_40504" />
+
+	<ITEM id="40505" name="Adam IB5" mesh_name="trap_firefield" type="custom" slot="custom" weapon="trap" 
+		spendable="true" spendtype="normal" itempower="18" damagetime="1200" damagetype="fire" magazine="3" maxbullet="3"
+		lifetime="2000" weight="2"
+		delay="2500" totalpoint="0" res_sex="a" res_level="60" bt_price="0" iscashitem="false" color="#FFFFFFFF" 
+		snd_fire="we_grenade_fire" desc="STR:ZITEM_DESC_40505" />
+
+	<ITEM id="405070" name="Ultimate IB" mesh_name="trap_firefield" type="custom" slot="custom" weapon="trap" 
+		spendable="true" spendtype="normal" itempower="20" damagetime="5000" damagetype="fire" magazine="10" maxbullet="300"
+		lifetime="8000" weight="0"
+		delay="2500" totalpoint="0" res_sex="a" res_level="0" bt_price="0" iscashitem="false" color="#FFFFFFFF" 
+		snd_fire="we_grenade_fire" desc="Creates a firefield which lasts for 8 Seconds, damaging all opponents with 20 dmg/sec for 5 seconds! A maximum of 10 units can be used per game. (consumable item)" />
+
+	<!-- 얼음 트랩 -->
+	<ITEM id="40601" name="Adam FT1" mesh_name="trap_frozenfield" type="custom" slot="custom" weapon="trap" 
+		spendable="true" spendtype="normal" itempower="80" damagetime="1200" damagetype="cold" magazine="2" maxbullet="2"
+		lifetime="2000" weight="6"
+		delay="2500" totalpoint="0" res_sex="a" res_level="0" bt_price="0" iscashitem="false" color="#FFFFFFFF" 
+		snd_fire="we_grenade_fire" desc="STR:ZITEM_DESC_40601" />
+
+	<ITEM id="40602" name="Adam FT2" mesh_name="trap_frozenfield" type="custom" slot="custom" weapon="trap" 
+		spendable="true" spendtype="normal" itempower="80" damagetime="1200" damagetype="cold" magazine="2" maxbullet="2"
+		lifetime="2000" weight="4"
+		delay="2500" totalpoint="0" res_sex="a" res_level="15" bt_price="0" iscashitem="false" color="#FFFFFFFF" 
+		snd_fire="we_grenade_fire" desc="STR:ZITEM_DESC_40602" />
+
+	<ITEM id="40603" name="Adam FT3" mesh_name="trap_frozenfield" type="custom" slot="custom" weapon="trap" 
+		spendable="true" spendtype="normal" itempower="80" damagetime="1200" damagetype="cold" magazine="2" maxbullet="2"
+		lifetime="2000" weight="2"
+		delay="2500" totalpoint="0" res_sex="a" res_level="30" bt_price="0" iscashitem="false" color="#FFFFFFFF" 
+		snd_fire="we_grenade_fire" desc="STR:ZITEM_DESC_40603" />
+
+	<ITEM id="40604" name="Adam FT4" mesh_name="trap_frozenfield" type="custom" slot="custom" weapon="trap" 
+		spendable="true" spendtype="normal" itempower="80" damagetime="1200" damagetype="cold" magazine="3" maxbullet="3"
+		lifetime="2000" weight="4"
+		delay="2500" totalpoint="0" res_sex="a" res_level="45" bt_price="0" iscashitem="false" color="#FFFFFFFF" 
+		snd_fire="we_grenade_fire" desc="STR:ZITEM_DESC_40604" />
+
+	<ITEM id="40605" name="Adam FT5" mesh_name="trap_frozenfield" type="custom" slot="custom" weapon="trap" 
+		spendable="true" spendtype="normal" itempower="80" damagetime="1200" damagetype="cold" magazine="3" maxbullet="3"
+		lifetime="2000" weight="2"
+		delay="2500" totalpoint="0" res_sex="a" res_level="60" bt_price="0" iscashitem="false" color="#FFFFFFFF" 
+		snd_fire="we_grenade_fire" desc="STR:ZITEM_DESC_40605" />
+
+	<ITEM id="406060" name="Ultimate FT" mesh_name="trap_frozenfield" type="custom" slot="custom" weapon="trap" 
+		spendable="true" spendtype="normal" itempower="80" damagetime="5000" damagetype="cold" magazine="10" maxbullet="300"
+		lifetime="8000" weight="2"
+		delay="2500" totalpoint="0" res_sex="a" res_level="0" bt_price="0" iscashitem="false" color="#FFFFFFFF" 
+		snd_fire="we_grenade_fire" desc="Creates a frozenfield which lasts for 8 Seconds, slowing down all opponents for 5 seconds! A maximum of 10 units can be used per game. (consumable item)" />
+	
+	<!-- 가속 캡슐 -->
+	<ITEM id="40701" name="Acceleration Vial v1" mesh_name="potion" type="custom" slot="custom" weapon="potion" 
+		spendable="true" spendtype="shortbuff" 
+		itempower="120" damagetime="5000" damagetype="haste" magazine="2" maxbullet="2" weight="5"
+		delay="1000" totalpoint="0" res_sex="a" res_level="0" bt_price="0" iscashitem="false" color="#FFFFFFFF" 
+		snd_fire="fx_itemget" effect_id="130" magazine_image_id="0" desc="An ultra-lightweight potion that forcibly accelerates the metabolism. It has been licensed to sell by eliminating side effects. Maximum of 2 vials can be used per game. (consumable item)"/>
+		
+	<ITEM id="40702" name="Acceleration Vial v2" mesh_name="potion" type="custom" slot="custom" weapon="potion" 
+		spendable="true" spendtype="shortbuff" 
+		itempower="120" damagetime="5000" damagetype="haste" magazine="3" maxbullet="3" weight="5"
+		delay="1000" totalpoint="0" res_sex="a" res_level="25" bt_price="0" iscashitem="false" color="#FFFFFFFF" 
+		snd_fire="fx_itemget" effect_id="130" magazine_image_id="0" desc="An ultra-lightweight potion that forcibly accelerates the metabolism. It has been licensed to sell by eliminating side effects. Maximum of 3 vials can be used per game. (consumable item)"/>
+		
+	<ITEM id="40703" name="Acceleration Vial v3" mesh_name="potion" type="custom" slot="custom" weapon="potion" 
+		spendable="true" spendtype="shortbuff" 
+		itempower="120" damagetime="5000" damagetype="haste" magazine="4" maxbullet="4" weight="5"
+		delay="1000" totalpoint="0" res_sex="a" res_level="50" bt_price="0" iscashitem="false" color="#FFFFFFFF" 
+		snd_fire="fx_itemget" effect_id="130" magazine_image_id="0" desc="An ultra-lightweight potion that forcibly accelerates the metabolism. It has been licensed to sell by eliminating side effects. Maximum of 4 vials can be used per game. (consumable item)"/>
+
+	<ITEM id="407050" name="Ultimate Acceleration Vial" mesh_name="potion" type="custom" slot="custom" weapon="potion" 
+		spendable="true" spendtype="shortbuff" 
+		itempower="160" damagetime="15000" damagetype="haste" magazine="10" maxbullet="300" weight="0"
+		delay="1000" totalpoint="0" res_sex="a" res_level="0" bt_price="0" iscashitem="false" color="#FFFFFFFF" 
+		snd_fire="fx_itemget" effect_id="130" magazine_image_id="0" desc="Speeds up the character by 60% for 15 seconds! Maximum of 10 vials can be used per game. (consumable item)"/>
+
+	<ITEM id="407070" name="Admin's Acceleration Vial" mesh_name="potion" type="custom" slot="custom" weapon="potion" 
+		spendable="true" spendtype="shortbuff" 
+		itempower="400" damagetime="99999" damagetype="haste" magazine="99999" maxbullet="99999" weight="0"
+		delay="300" totalpoint="0" res_sex="a" res_level="0" bt_price="0" iscashitem="false" color="#FFFFFFFF" 
+		snd_fire="fx_itemget" effect_id="130" magazine_image_id="0" desc="Admin's ultra-lightweight potion that forcibly accelerates the metabolism. It has been licensed to sell by eliminating side effects. (consumable item)"/>
+
+</XML>
